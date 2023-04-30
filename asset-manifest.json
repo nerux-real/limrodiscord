@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/limrodiscord/static/css/main.073c9b0a.css",
-    "main.js": "/limrodiscord/static/js/main.ce40d6c8.js",
+    "main.css": "/limrodiscord/static/css/main.879123a8.css",
+    "main.js": "/limrodiscord/static/js/main.e01baec8.js",
     "static/js/787.96e6ce24.chunk.js": "/limrodiscord/static/js/787.96e6ce24.chunk.js",
-    "static/media/logo.svg": "/limrodiscord/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.png": "/limrodiscord/static/media/logo.0cddf0f15619539c24dd.png",
+    "static/media/song.PNG": "/limrodiscord/static/media/song.db6687642f0ff0f382ab.PNG",
+    "static/media/ban.PNG": "/limrodiscord/static/media/ban.3353c5a127d395e1e32e.PNG",
     "index.html": "/limrodiscord/index.html",
-    "main.073c9b0a.css.map": "/limrodiscord/static/css/main.073c9b0a.css.map",
-    "main.ce40d6c8.js.map": "/limrodiscord/static/js/main.ce40d6c8.js.map",
+    "main.879123a8.css.map": "/limrodiscord/static/css/main.879123a8.css.map",
+    "main.e01baec8.js.map": "/limrodiscord/static/js/main.e01baec8.js.map",
     "787.96e6ce24.chunk.js.map": "/limrodiscord/static/js/787.96e6ce24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ce40d6c8.js"
+    "static/css/main.879123a8.css",
+    "static/js/main.e01baec8.js"
   ]
 }
