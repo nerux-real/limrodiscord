@@ -1,10 +1,10 @@
+import logo from './logo.svg';
+import './index.css';
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './pages/About';
 import Profile from './pages/Profile';
-import { Route, Routes } from "react-router";
 import { Link } from "react-router-dom";
-import InteractiveBackground from './InteractiveBackground';
-import './App.css'
 
 function App() {
     const handleButtonClick = () => {
@@ -13,22 +13,16 @@ function App() {
 
     return (
         <div className="App">
-            <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/profile" element={<Profile />} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
             <nav class="navbar background">
                 <ul class="nav-list">
-                    <li>
-                        <Link to="/limrodiscord">
-                            <img class="logo"/>
-                        </Link>
-                    </li>
                     <li><a href ="https://discord.gg/55WjVBMDvH" class="bar-btns" target="_blank">Our Discord</a></li>
                     <li><a href="https://discord.com/api/oauth2/authorize?client_id=1086632004273057792&permissions=8&scope=bot" class="bar-btns" target="_blank">Invite Bot</a></li>
                     <li><a href="https://limro-studios.gitbook.io/limro-sama-docs/" class="bar-btns" target="_blank">Help</a></li>
-                    <li><a href="/about" class="bar-btns">About</a></li>
+                    <li><a href="/about" class="bar-btns" target="_blank">About</a></li>
                     <li><a href='https://www.patreon.com/limrostudios/membership' class="bar-btns" target="_blank">Premium</a></li>
                 </ul>
 
@@ -41,7 +35,7 @@ function App() {
                 <div class="box-main">
                     <div class="firstHalf">
                         <h1 class="text-verybig">
-                            Limro-Sama Discord Bot
+                            Limro Discord Bot
                         </h1>
                         <p class="text-small">
                             Start making your discord server better right now!
@@ -54,7 +48,7 @@ function App() {
                 <div class="box-main">
                     <div class="secondHalf">
                         <h1 class="text-big" id="program">
-                            Why Limro-Sama?
+                            Why Limro?
                         </h1>
                     </div>
                 </div>
@@ -79,20 +73,15 @@ function App() {
                         </p>
                     </div>
                 </div>
-                <img class="song"/>
             </section>
             <section class="section">
-                <img class="ban"/>
                 <div class="box-main">
                     <div class="secondHalf">
                         <h1 class="text-big" id="program">
                             Moderation functions for guild!
                         </h1>
                         <p class="text-small">
-                            Available many commands like /ban /kick /mute /unmute /unban,
-                        </p>
-                        <p class="text-small">
-                            so you can moderate server like a real mod.
+                            Available many commands like /ban /kick /mute /unmute /unban, so you can moderate server like a real mod.
                         </p>
                     </div>
                 </div>

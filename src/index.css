@@ -11,3 +11,224 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.background {
+    background: rgb(25, 25, 25);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.bar-btns {
+    cursor: pointer;
+    color: white;
+}
+    .bar-btns:hover {
+        color: gray;
+    }
+
+.logo {
+    background-image: url('logo.png');
+    background-size: cover;
+    width: 115px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    .logo:hover {
+        cursor: pointer;
+    }
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 15px 30px;
+}
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+    height: 80%;
+}
+
+.firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+    .secondhalf img {
+        width: 70%;
+        border: 4px solid white;
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+    }
+
+.song {
+    background-image: url('assets/song.PNG');
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 175px;
+}
+
+.ban {
+    background-image: url('assets/ban.PNG');
+    background-size: cover;
+    width: 400px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 175px;
+}
+
+.text-verybig {
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.text-big {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.section {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    justify-content: space-between;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #525252;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f1f1f 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background: #828282;
+        text-decoration: none;
+    }
+
+.btn2 {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #525252;
+    padding: 7px 15px 7px 15px;
+    border: solid #1f1f1f 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .btn2:hover {
+        background: #828282;
+        text-decoration: none;
+    }
+
+    .btn2:clicked {
+        background: #000000;
+      }
